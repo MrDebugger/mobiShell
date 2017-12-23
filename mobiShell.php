@@ -14,7 +14,7 @@ error_reporting(0);
 		the owner of it.
 
 #Greetz to: 
-Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman and Team Pak Cyber Ghosts (https://www.facebook.com/pakcyberghostsofficial)
+Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman , KM Ashraf and Team Pak Cyber Ghosts (https://www.facebook.com/pakcyberghostsofficial)
 
 #Thanks to:
 php.net , w3schools.com , google.com and stackoverflow.com
@@ -32,15 +32,15 @@ HTML , CSS (Bootstrap as well) , JavaScript (JQuery most) and PHP
 * Delete File (also ask for confirmation).
 * Rename File.
 More Features will be add in next versions
-		#Contact:
-			Facebook (https://www.facebook.com/muibraheem96)
-			Website  (https://www.ijazurrahim.com/)
-			Twitter  (https://www.twtiier.com/muibraheem96)
-			linkedln (https://www.linkedin.com/in/muibraheem96/)
-			instagram(https://www.instagram.com/muibraheem96/)
-			GitHub   (https://www.github.com/IJAZ9913)
-			Fiverr   (https://www.fiverr.com/muibraheem96)
-			Email    (ijazkhan095@gmail.com)
+#Contact:
+Facebook (https://www.facebook.com/muibraheem96)
+Website  (https://www.ijazurrahim.com/)
+Twitter  (https://www.twtiier.com/muibraheem96)
+linkedln (https://www.linkedin.com/in/muibraheem96/)
+instagram(https://www.instagram.com/muibraheem96/)
+GitHub   (https://www.github.com/IJAZ9913)
+Fiverr   (https://www.fiverr.com/muibraheem96)
+Email    (ijazkhan095@gmail.com)
 	*/
 	function filemanager(){
 			$files = '';
