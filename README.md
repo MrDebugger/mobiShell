@@ -1,2 +1,31 @@
-# mobiShell
-This is an open source browser based software, anyone can modify or copy its contents , this tool is for educational and research purpose, i am not responsible for any illegal act done by anyone using this tool.
+#Tools Name:
+	Mobile Shell V 0.1 | The Alien
+
+#Autor:
+ THIS TOOL IS CODED BY
+IJAZ UR RAHIM (The Alien)
+  From Team  P . C . G .
+
+Changing Programmers name
+doesn't mean You become 
+the owner of it.
+
+#Greetz to: 
+Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman and Team Pak Cyber Ghosts (https://www.facebook.com/pakcyberghostsofficial)
+
+#Thanks to:
+	php.net , w3schools.com , google.com and stackoverflow.com
+
+#Languages used:
+	HTML , CSS (Bootstrap as well) , JavaScript (JQuery most) and PHP
+
+#Features:
+	* Listing Files and Directories.
+	* Show file type with a specific icon.
+	* Show file's/dir's creation/modification time.
+	* Show file's/dir's Permission.
+	* Open Editor for a Specific Type of File.
+	* Download File.
+	* Delete File (also ask for confirmation).
+	* Rename File.
+	More Features will be add in next versions
