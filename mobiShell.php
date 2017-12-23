@@ -1,4 +1,4 @@
-	<?php
+<?php
 
 	/*
 		#Tools Name:
@@ -32,6 +32,15 @@
 			* Delete File (also ask for confirmation).
 			* Rename File.
 			More Features will be add in next versions
+		#Contact:
+			Facebook (https://www.facebook.com/muibraheem96)
+			Website  (https://www.ijazurrahim.com/)
+			Twitter  (https://www.twtiier.com/muibraheem96)
+			linkedln (https://www.linkedin.com/in/muibraheem96/)
+			instagram(https://www.instagram.com/muibraheem96/)
+			GitHub   (https://www.github.com/IJAZ9913)
+			Fiverr   (https://www.fiverr.com/muibraheem96)
+			Email    (ijazkhan095@gmail.com)
 	*/
 	function filemanager(){
 		$files = '';
@@ -251,7 +260,7 @@ if (isset($_POST['deletefile']))
 	else
 		echo 2;
 }
-	?><!DOCTYPE HTML>
+?><!DOCTYPE HTML>
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
