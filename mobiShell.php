@@ -318,9 +318,11 @@ if (isset($_POST['deletefile']))
     	function changedir(a)
 		{
 			var dir = a;
+			$(".loading").show(1000);
 			$.post('mobiShell.php',
 			 {dir: dir},
 			 function(data) {
+				$(".loading").hide(1000);
 			 	$(".explorer").empty();
 			 	$(".explorer").append('<div class="crossfm alert label-danger" onclick="crossfm()">CLOSE</div><hr>'+data);
 			});
@@ -332,17 +334,20 @@ if (isset($_POST['deletefile']))
 			var filename = $(".file-name").text();
 			var filecontent = $('textarea').val();
 			var filepath = c;
+			$(".loading").show(1000);
 			$.post('mobiShell.php',
 			 {filename: filename,filecontent:filecontent,filepath:filepath},
 			 function(data) {
 			 	if (data==1) {
+					$(".loading").hide(1000);
 			 		$(".file-success").show(1000);
 			 		setTimeout(function() {
 			 		$(".file-success").hide(1000);
 			 		}, 2000);
 			 	}
 			 	if (data==2) {
-			 		$(".file-error").show(1000);
+					$(".loading").show(1000);
+			 		$(".file-error").hide(1000);
 			 		setTimeout(function() {
 			 			$(".file-error").hide(1000);
 			 		}, 2000);
@@ -412,11 +417,13 @@ if (isset($_POST['deletefile']))
 			$(".rename").addClass('hidden');
 			var oldname = $(".path").text()+"/"+$(".newname").text();
 			var newname = $(".path").text()+"/"+$(".oldname").text();
+			$(".loading").show(1000);
 			$.post('mobiShell.php',
 			 {oldname: oldname,newname:newname},
 			 function(data) {
 			 	if(data==1)
 			 	{
+					$(".loading").hide(1000);
 			 		changedir($(".path").text()+"/.");
 			 		$(".rename-success").show(1000);
 			 		setTimeout(function() {
@@ -425,6 +432,7 @@ if (isset($_POST['deletefile']))
 			 	}
 			 	if (data==2) 
 			 	{
+					$(".loading").hide(1000);
 			 		$(".rename-error").show(1000);
 			 		setTimeout(function() {
 			 			$(".rename-error").hide(1000);
@@ -442,9 +450,11 @@ if (isset($_POST['deletefile']))
 		{
 			$(".confirm-delete").addClass('hidden');
 			var deletefile = $(".filepath").text();
+			$(".loading").show(1000);
 			$.post('mobiShell.php',
 			 {deletefile: deletefile},
 			 function(data) {
+			$(".loading").hide(1000);
 			 	if(data!=2)
 			 	{
 			 		changedir(data);
