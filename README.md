@@ -1,5 +1,5 @@
 # Mobile Shell Version 0.1
-**An open source browser-based software**
+**An open source browser-based software, specially designed for Researchers.**
 ### Tools Name:
 	Mobile Shell V 0.1 | The Alien
 
@@ -20,12 +20,12 @@
 	HTML , CSS (Bootstrap as well) , JavaScript (JQuery most) and PHP
 
 ### Features:
-	- Listing Files and Directories.
-	- Show file type with a specific icon.
-	- Show file's/dir's creation/modification time.
-	- Show file's/dir's Permission.
-	- Open Editor for a Specific Type of File.
-	- Download File.
-	- Delete File (also ask for confirmation).
-	- Rename File.
+	- Listing `Files` and `Directories`.
+	- Show `file-type` with a specific icon.
+	- Show file's/dir's `creation/modification time`.
+	- Show file's/dir's `Permission`.
+	- Open `Editor` for a Specific Type of File.
+	- `Download` File.
+	- `Delete` File (also ask for `confirmation`).
+	- `Rename` File.
 	More Features will be add in next versions
