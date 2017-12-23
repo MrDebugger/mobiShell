@@ -4,14 +4,18 @@
 	Mobile Shell V 0.1 | The Alien
 
 ### Autor:
-	IJAZ UR RAHIM (<a href="https://www.facebook.com/muibraheem96/" target="_blank">The Alien</a>)
+<pre><code>
+IJAZ UR RAHIM (<a href="https://www.facebook.com/muibraheem96/" target="_blank">The Alien</a>)
+</code></pre>
 
 Changing Programmers name
 doesn't mean You become 
 the owner of it.
 
 ### Greetz to: 
-	Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman and Team Pak Cyber Ghosts (<a href="https://www.facebook.com/pakcyberghostsofficial/" target="_blank">https://www.facebook.com/pakcyberghostsofficial</a>)
+<pre><code>
+Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman and Team Pak Cyber Ghosts (<a href="https://www.facebook.com/pakcyberghostsofficial/" target="_blank">https://www.facebook.com/pakcyberghostsofficial</a>)
+</code></pre>
 
 ### Thanks to:
 	php.net , w3schools.com , google.com and stackoverflow.com
