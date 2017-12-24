@@ -179,7 +179,7 @@ Email    (ijazkhan095@gmail.com)
 			}
 			else
 			{
-				echo $_POST['filecontent'];
+				echo 2;
 			}
 			fclose($file);
 			die();
