@@ -705,7 +705,7 @@ if (isset($_POST['newFolder']))
  	<link rel="stylesheet" href="https://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://www.w3schools.com/lib/codemirror.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="https://ijazurrahim.com/mobiShell/css/style.css" rel="stylesheet">
 	<script src="https://www.w3schools.com/lib/codemirror.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
