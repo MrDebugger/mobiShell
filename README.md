@@ -1,7 +1,7 @@
-# Mobile Shell Version 0.1
+# Mobile Shell
 **An open source browser-based software, specially designed for Researchers.**
 ### Tool's Name:
-	Mobile Shell V 0.1 | The Alien
+	Mobile Shell | The Alien
 
 ### Autor:
 <pre><code>
@@ -18,7 +18,7 @@ Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman ,
 </code></pre>
 
 ### Thanks to:
-	php.net , w3schools.com , google.com and stackoverflow.com
+	php.net , w3schools.com , codemirror.net , google.com and stackoverflow.com
 
 ### Languages used:
 	HTML , CSS (Bootstrap as well) , JavaScript (JQuery most) and PHP
@@ -32,7 +32,17 @@ Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman ,
 - `Download` File.
 - `Delete` File (also ask for `confirmation`).
 - `Rename` File.
- More Features will be add in next versions
+- `Editor` Like `Notepad++` by `CodeMirror`.
+- `Delete Multiple` Files.
+- `Create` File.
+- `Create` Folder.
+- `Delete Directory` with it's Contents.
+- `Search` Files.
+- `Upload Multiple` Files.
+- Go to `Home`.
+- `Everything` about File/Directory in `Properties`.
+- `Extract` Zip Files.
+
 # Contact:
 - Facebook (<a href="https://www.facebook.com/muibraheem96" target="_blank">https://www.facebook.com/muibraheem96</a>)
 - Website  (<a href="https://www.ijazurrahim.com/" target="_blank">https://www.ijazurrahim.com/</a>)
