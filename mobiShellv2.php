@@ -1272,7 +1272,7 @@ if (isset($_POST['newFolder']))
 			 		setTimeout(function() {
 			 		$(".newFolder-success").hide(1000);
 			 		}, 2000);
- 					changedir(newFilePath+"/.");
+ 					changedir(newFolderPath+"/.");
  					$(".newFolder").text("");
 			 	}
 			 	if (data==2) 
