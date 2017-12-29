@@ -3,7 +3,7 @@
 ### Tool's Name:
 	Mobile Shell | The Alien
 
-### Autor:
+### Author:
 <pre><code>
 IJAZ UR RAHIM (<a href="https://www.facebook.com/muibraheem96/" target="_blank">The Alien</a>)
 </code></pre>
