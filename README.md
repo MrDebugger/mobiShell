@@ -24,6 +24,7 @@ Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman ,
 	HTML , CSS (Bootstrap as well) , JavaScript (JQuery most) and PHP
 
 ### Features:
+- `Pattern` Lock
 - Listing `Files` and `Directories`.
 - Show `file-type` with a specific icon.
 - Show file's/dir's `creation/modification time`.
