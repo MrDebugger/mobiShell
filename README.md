@@ -5,7 +5,7 @@
 
 ### Author:
 <pre><code>
-IJAZ UR RAHIM (<a href="https://www.facebook.com/muibraheem96/" target="_blank">The Alien</a>)
+IJAZ UR RAHIM (<a href="https://www.facebook.com/MrDebugger/" target="_blank">The Alien</a>)
 </code></pre>
 
 Changing Programmers name
@@ -48,11 +48,11 @@ Syed Umar Arfeen , Shoaib Malik , Usama Arshad , Zain Sabahat , Muhammad Osman ,
 <a href="https://youtu.be/OmpWolU_lEc">https://youtu.be/OmpWolU_lEc</a>
 
 # Contact:
-- Facebook (<a href="https://www.facebook.com/muibraheem96" target="_blank">https://www.facebook.com/muibraheem96</a>)
-- Website  (<a href="https://www.ijazurrahim.com/" target="_blank">https://www.ijazurrahim.com/</a>)
+- Facebook (<a href="https://www.facebook.com/MisterDebugger" target="_blank">https://www.facebook.com/MisterDebugger</a>)
+- Website  (<a href="https://ijazurrahim.com/" target="_blank">https://ijazurrahim.com/</a>)
 - Twitter  (<a href="https://www.twtiier.com/muibraheem96" target="_blank">https://www.twtiier.com/muibraheem96</a>)
 - linkedln (<a href="https://www.linkedin.com/in/muibraheem96/" target="_blank">https://www.linkedin.com/in/muibraheem96/</a>)
-- instagram(<a href="https://www.instagram.com/muibraheem96/" target="_blank">https://www.instagram.com/muibraheem96/</a>)
-- GitHub   (<a href="https://www.github.com/IJAZ9913" target="_blank">https://www.github.com/IJAZ9913</a>)
+- instagram(<a href="https://www.instagram.com/MrDebugger/" target="_blank">https://www.instagram.com/MrDebugger/</a>)
+- GitHub   (<a href="https://www.github.com/MrDebugger" target="_blank">https://www.github.com/MrDebugger</a>)
 - Fiverr   (<a href="https://www.fiverr.com/muibraheem96" target="_blank">https://www.fiverr.com/muibraheem96</a>)
 - Email    (<a href="mailto:ijazkhan095@gmail.com" target="_blank">ijazkhan095@gmail.com</a>)
